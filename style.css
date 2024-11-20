@@ -1,0 +1,25 @@
+*{
+    margin: 0;padding: 0;
+}
+.main img{
+position: relative;
+width: 100%;
+}
+.car img{
+    position: relative;
+    top: -308px;
+    height: 166px;
+    animation: car 3s ease-in 0s infinite;
+    width: 364px;
+}
+@keyframes car {
+    0%{
+transform: translateX(0px)translateY(0px);
+    }
+    50%{
+transform: translateX(500px) translateY(80px);
+    }
+    100%{
+        transform: translateX(1200px) translateY(0px);
+    }
+}
